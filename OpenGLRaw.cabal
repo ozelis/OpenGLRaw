@@ -56,6 +56,7 @@ library
       Graphics.Rendering.OpenGL.Raw.ARB.DrawInstanced,
       Graphics.Rendering.OpenGL.Raw.ARB.FragmentProgram,
       Graphics.Rendering.OpenGL.Raw.ARB.FragmentShader,
+      Graphics.Rendering.OpenGL.Raw.ARB.FrameBufferNoAttachment,
       Graphics.Rendering.OpenGL.Raw.ARB.FramebufferObject,
       Graphics.Rendering.OpenGL.Raw.ARB.FramebufferSRGB,
       Graphics.Rendering.OpenGL.Raw.ARB.GeometryShader4,
