@@ -50,7 +50,7 @@ module Graphics.Rendering.OpenGL.Raw.ARB (
    module Graphics.Rendering.OpenGL.Raw.ARB.PixelBufferObject,
    module Graphics.Rendering.OpenGL.Raw.ARB.DepthBufferFloat,
    module Graphics.Rendering.OpenGL.Raw.ARB.DrawInstanced,
-   module Graphics.Rendering.OpenGL.Raw.ARB.FrameBufferNoAttachment,
+   module Graphics.Rendering.OpenGL.Raw.ARB.FramebufferNoAttachments,
    module Graphics.Rendering.OpenGL.Raw.ARB.FramebufferObject,
    module Graphics.Rendering.OpenGL.Raw.ARB.FramebufferSRGB,
    module Graphics.Rendering.OpenGL.Raw.ARB.GeometryShader4,
@@ -146,4 +146,4 @@ import Graphics.Rendering.OpenGL.Raw.ARB.TextureCubeMapArray
 import Graphics.Rendering.OpenGL.Raw.ARB.TextureGather
 -- import Graphics.Rendering.OpenGL.Raw.ARB.TextureQueryLod
 import Graphics.Rendering.OpenGL.Raw.ARB.CreateContextProfile
-import Graphics.Rendering.OpenGL.Raw.ARB.FrameBufferNoAttachment
+import Graphics.Rendering.OpenGL.Raw.ARB.FramebufferNoAttachments

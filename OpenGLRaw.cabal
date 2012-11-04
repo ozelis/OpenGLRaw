@@ -56,7 +56,7 @@ library
       Graphics.Rendering.OpenGL.Raw.ARB.DrawInstanced,
       Graphics.Rendering.OpenGL.Raw.ARB.FragmentProgram,
       Graphics.Rendering.OpenGL.Raw.ARB.FragmentShader,
-      Graphics.Rendering.OpenGL.Raw.ARB.FrameBufferNoAttachment,
+      Graphics.Rendering.OpenGL.Raw.ARB.FramebufferNoAttachments,
       Graphics.Rendering.OpenGL.Raw.ARB.FramebufferObject,
       Graphics.Rendering.OpenGL.Raw.ARB.FramebufferSRGB,
       Graphics.Rendering.OpenGL.Raw.ARB.GeometryShader4,
@@ -238,7 +238,7 @@ library
       extensions: StandaloneDeriving, DeriveDataTypeable
       build-depends: ghc-prim
    if os(windows) && flag(UseNativeWindowsLibraries)
-      cpp-options: "-DCALLCONV=stdcall"
+      cpp-options: "-DCALLCONV=ccall"
       cc-options: "-DUSE_WGLGETPROCADDRESS"
       extra-libraries: opengl32
    else
